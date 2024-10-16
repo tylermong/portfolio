@@ -11,8 +11,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={"font-mono"}>
-      <body>{children}</body>
+    <html lang="en" className={"scroll-smooth "}>
+      <body className="flex flex-col min-h-screen max-w-3xl mx-auto px-4 pt-16 sm:px-8 bg-zinc-950 font-mono font-normal text-white text-sm antialiased">{children}</body>
     </html>
   );
 }
