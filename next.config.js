@@ -5,6 +5,11 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  // Enable static export mode
+  output: 'export',
+
+  // You can add more Next.js configuration options here if needed
+};
 
 export default config;
