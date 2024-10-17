@@ -22,7 +22,7 @@ export default function HomePage() {
         </div>
         <p className="mb-10 text-justify">I&#39;m a 20-year-old computer science student who loves building things and tackling complex problems.
           When I&#39;m not coding, you can find me at the gym, experimenting with photography, or at car meets.
-          My curisoty keeps me constantly exploring new technologies and ways to improve my skills.
+          My curiosity keeps me constantly exploring new technologies and ways to improve my skills.
         </p>
       </div>
 
